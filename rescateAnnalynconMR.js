@@ -59,7 +59,7 @@ let accionesDisponiblesParaAnnalyn = [];
 let auxMovimientoObj = {}; 
  
 // Constante de máximo número de intentos y el número actual de intentos 
-const MAXIMO = 10; 
+const MAXIMO = 15; 
 let intentos = 0; 
  
 do{ 
