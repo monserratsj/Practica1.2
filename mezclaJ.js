@@ -71,3 +71,8 @@ function remainingOrders(minutesLeft, orders) {
 console.log(timeToMixJuice('Pure Strawberry Joy')); // Salida: 0.5
 console.log(limesToCut(20, ['pequeña', 'mediana', 'grande', 'mediana', 'pequeña'])); // Salida: 3
 console.log(remainingOrders(6, ['Pure Strawberry Joy', 'Energizer', 'Tropical Island', 'All or Nothing'])); // Salida: ["Tropical Island", "All or Nothing"]
+
+console.log("Caso 3");
+console.log(timeToMixJuice('Green Garden')); 
+console.log(limesToCut(15, ['pequeña','mediana','grande','pequeña'] ));
+console.log(remainingOrders(5,['Energizer','Tropical Island', 'Pure Strawberry Joy',]));
