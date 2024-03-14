@@ -70,4 +70,11 @@ function remainingOrders(minutesLeft, orders) {
 // Ejemplos de uso de las funciones
 console.log(timeToMixJuice('Pure Strawberry Joy')); // Salida: 0.5
 console.log(limesToCut(20, ['pequeña', 'mediana', 'grande', 'mediana', 'pequeña'])); // Salida: 3
-console.log(remainingOrders(6, ['Pure Strawberry Joy', 'Energizer', 'Tropical Island', 'All or Nothing'])); // Salida: ["Tropical Island", "All or Nothing"]
+console.log(remainingOrders(6, ['Pure Strawberry Joy', 'Energizer', 'Tropical Island', 'All or Nothing'])); 
+// Salida: ["Tropical Island", "All or Nothing"]
+
+
+console.log("Caso 2");
+console.log(timeToMixJuice('All or Nothing')); 
+console.log(limesToCut(10, ['pequeña', 'mediana', 'grande', 'mediana', 'pequeña'])); 
+console.log(remainingOrders(5, ['Pure Strawberry Joy', 'Energizer']));
