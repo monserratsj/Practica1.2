@@ -10,6 +10,8 @@ function timeToMixJuice(juice) {
             return 3;
         case 'All or Nothing':
             return 5;
+        case 'Blueberry Biss': // Nuevo tipo de jugo agregado
+            return 2; // Tiempo necesario
         default:
             return 2.5; // Tiempo por defecto para otras bebidas
     }
