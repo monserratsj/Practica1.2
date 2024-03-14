@@ -3,7 +3,8 @@ const movimientosPosibles = {
     "1": "Ataque Rápido", 
     "2": "Espía", 
     "3": "Señalar prisionero", 
-    "4": "Liberar prisionero" 
+    "4": "Liberar prisionero",
+    "5": "Distraccion con flecha" // Nueva accion añadida
 } 
  
 const probabilidades = { 
@@ -38,6 +39,11 @@ function accionesDisponibles(prisioneroDespierto, caballeroDurmiendo, arqueroDur
             acciones.push(movimientosPosibles["4"]); 
         } 
     } 
+    // Nueva logica para determinar la nueva accion
+    if (arqueroDurmiendo && !perroPresente){
+        acciones.push(movimientosPosibles["5"]);
+    }
+    
  
     return acciones; 
 } 
