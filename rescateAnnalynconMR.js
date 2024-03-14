@@ -90,7 +90,7 @@ do{
     console.log(""); 
 }while (!(movimientos[intentos-1]["movimiento"] === "Liberar prisionero" && movimientos[intentos-1]["estatus"]) && intentos < MAXIMO); 
  
-if (intentos > MAXIMO) { 
+if (intentos >= MAXIMO && (movimientos[intentos-1]["movimiento"] !=="Liberar prisionero" || !movimientos[intentos-1]["estatus"])) { 
     console.log("Se intentó el máximo número de veces, fallaste D: Consiguete otra amiga 💀"); 
 } 
  
