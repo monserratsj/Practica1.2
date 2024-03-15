@@ -79,3 +79,5 @@ console.log("Caso 3");
 console.log(timeToMixJuice('Green Garden')); 
 console.log(limesToCut(15, ['pequeña','mediana','grande','pequeña'] ));
 console.log(remainingOrders(5,['Energizer','Tropical Island', 'Pure Strawberry Joy',]));
+
+console.log(timeToMixJuice('Pure Strawberry Joy')); // Caso de uso 
